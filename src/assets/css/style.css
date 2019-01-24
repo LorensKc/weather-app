@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&subset=cyrillic');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #21222C;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #2c3e50;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.container {
+	max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: column wrap;
+}
